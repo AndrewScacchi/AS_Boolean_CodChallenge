@@ -1,0 +1,83 @@
+/* Global Settings */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('img/background.jpg');
+    background-size: cover;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(10,10,10,0.6);
+    min-height: 600px;
+    border-radius: 10px;
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+}
+
+/* Navbar */
+
+header{
+    text-align: center;
+}
+.navbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(29, 240, 29);
+    margin-bottom: 20px;
+}
+h1{
+    color:  rgb(29, 240, 29);
+    font-size: 1.5em;
+    margin: 5px;
+}
+.logo{
+    width: 30%;
+}
+
+/* Section elements */
+section.monopattino{
+    color: white;
+    margin-bottom: 30px;
+    /*border: 1px solid red;*/
+}
+
+section h3, section div{
+    margin: 5px 0;
+}
+.battery{
+    height: 2em;
+    width: 30em;
+    background-color: green;
+    border-radius: 5px;
+}
+
+/*  I separated the default battery "full" 
+    from the single specific ones 
+    using two different classes */
+
+.mp_1{
+    background-color: orange;
+    width: 20em;
+}
+.mp_3{
+    background-color: red;
+    width: 10em;
+}
+
+/*  These classis only exist for RP reason 
+    to grab data from a server
+    so they should be a generic class in
+    a mask looped for all items..
+
+.mp_where, .mp_distance .mp_name{
+}
+*/
+
+/*
+that's all folks
+*/
